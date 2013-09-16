@@ -19,3 +19,8 @@ Route::get('/', function()
 Route::any('search', array('as' => 'search', function() {
     return 'Route "search"';
 }));
+
+Route::get('/test', function()
+{
+	return View::make('test');
+});
