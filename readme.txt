@@ -1,4 +1,4 @@
-Projet Web de la session d'automne 2013 - Plate-forme de diffusion d'oeuvres �tudiants � Maisonneuve
+﻿Projet Web de la session d'automne 2013 - Plate-forme de diffusion d'oeuvres �tudiants � Maisonneuve
 
 1-4-2
 
@@ -24,3 +24,5 @@ Titre
 
 - Gabriel Santerre
 	- Charg� de projet
+
+hgfhgfhf
