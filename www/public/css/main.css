@@ -362,7 +362,7 @@ ul > a.active {
 .main.content {
   text-align: left;
   padding: 50px 0px 0px 15px;
-  width: 614px;
+  width: 575px;
 }
 .main > article {
   padding: 15px;
@@ -374,7 +374,7 @@ ul > a.active {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 .main > article.widget {
-  width: 159.66667px;
+  width: 146.66667px;
 }
 
 .footer-container {
