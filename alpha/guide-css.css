@@ -1,0 +1,55 @@
+/*CSS que vous pouvez utiliser pour votre maquette*/
+
+/*
+ Pour faire une boite avec l'ombre le padding et le bon margin
+ Il ne vous reste qu'à faire une autre class et donner les dimenssion voulu à votre boîte
+*/
+.box{
+	padding: 15px;
+	margin: 15px 15px 0px 0px;
+	background-color: #FFF;
+	float: left;
+	-moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*
+Font à utiliser
+*/
+
+.Open-Sans-normal-700 {
+  font-family: 'Open Sans' !important;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.Open-Sans-normal-400 {
+  font-family: 'Open Sans' !important;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Open-Sans-italic-300 {
+  font-family: 'Open Sans' !important;
+  font-style: italic;
+  font-weight: 300;
+}
+
+/*
+La couleur des box est blanche et elle on un padding de 15px et sont séparé les une des autre par 15px
+*/
+
+ /* voupouvez enlever le padding pour que les image colle au rebord de la box mais le texte doit obligatoirement etre a 15px du contour de la box */
+
+/*
+La couleur des texte est #4F4F4F
+*/
+
+/*
+La couleur du background est #F4F4F4
+*/
+
+/*
+Let's have fun!
+*/
