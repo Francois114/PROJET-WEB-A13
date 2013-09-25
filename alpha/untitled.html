@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>fluid layout</title>
+<style>
+    /*class to set the width of the columns */
+    .floatbox{
+        width:100px;
+    }
+
+    #container{
+        width: 100%;
+        float:left;
+    }
+    #left{
+        float:left;
+    }
+    #right{
+        float:right;
+    }
+    #center{
+        overflow: hidden;
+    }
+    .clear{
+        clear:both;
+    }
+</style>
+</head>
+<body>
+    <div id="container">
+        <!-- floating column to the right, it must be placed BEFORE the left one -->
+        <div class="floatbox" id="right">Right</div>
+        <div class="floatbox" id="left">Left</div>
+
+        <!-- central column, it takes automatically the remaining width, no need to declare further css rules -->
+        <div id="center">This text is long and can get longer</div>
+
+        <!-- footer, beneath everything, css is ok -->
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
