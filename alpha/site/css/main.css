@@ -386,27 +386,6 @@ A MODIFIER
   background-image: url("../img/cliquez-ici-pour-connecter.png");
 }
 
-.main-align {
-  background-color: transparent;
-}
-.main-align.left {
-  width: 188px;
-  height: 50px;
-}
-.main-align.right {
-  width: 214px;
-  height: 50px;
-}
-
-.main.wrapper {
-  text-align: center;
-}
-.main.content {
-  text-align: left;
-  padding: 50px 0px 0px 15px;
-  width: 575px;
-}
-
 .footer-container {
   float: left;
   padding-right: 15px;
