@@ -87,6 +87,7 @@ $(".search .background .field").focusout(function(){
 	}else{
 		$("main").width(nbrHorizontalArticle*283);
 	}
+
 });*/
 
 
