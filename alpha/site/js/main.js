@@ -67,7 +67,11 @@ $(".search .background .field").focusout(function(){
 
 
 
+<<<<<<< HEAD
+$(window).resize(function() {
+=======
 /*$(window).resize(function() {
+>>>>>>> pr/13
 
 	var nbrArticle = $("main > .s-width-tile").length;
 	var articleSpace = $(window).width()-((95+80)+(3*15));
@@ -87,8 +91,15 @@ $(".search .background .field").focusout(function(){
 	}else{
 		$("main").width(nbrHorizontalArticle*283);
 	}
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+});
+=======
+>>>>>>> upstream/master
 });*/
+>>>>>>> pr/13
 
 
 
