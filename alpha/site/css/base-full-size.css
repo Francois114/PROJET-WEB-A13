@@ -1,15 +1,24 @@
+<<<<<<< HEAD
 /* line 1, ../scss/base-full-size.scss */
 .main.wrapper {
   text-align: center;
 }
 /* line 3, ../scss/base-full-size.scss */
+=======
+.main.wrapper {
+  text-align: center;
+}
+>>>>>>> pr/13
 .main.wrapper > main {
   text-align: left;
   padding: 50px 80px 0px 95px;
   overflow: hidden;
   height: 5000px;
 }
+<<<<<<< HEAD
 /* line 8, ../scss/base-full-size.scss */
+=======
+>>>>>>> pr/13
 .main.wrapper > main > article {
   display: inline;
   float: left;
@@ -17,7 +26,10 @@
   width: 268px;
 }
 
+<<<<<<< HEAD
 /* line 18, ../scss/base-full-size.scss */
+=======
+>>>>>>> pr/13
 .box {
   padding: 0px;
   margin: 15px 15px 0px 0px;
@@ -28,4 +40,20 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s;
   transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s;
+<<<<<<< HEAD
+=======
+  /*p{
+  	font-size: 0.5em;
+  }
+  .author{
+  	font-size: 0.4em;
+  }*/
+}
+.box img {
+  width: 100%;
+}
+.box p, .box h1 {
+  padding: 15px;
+  text-align: justify;
+>>>>>>> pr/13
 }
