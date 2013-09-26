@@ -59,35 +59,177 @@
 		<main class="center">
 			
 
-			
+
 
 
 
 
 
 			<!-- Tout les modification ce font ici -->
-			<div class="one box">
-				1.1
-			</div>
+			<div id="contenu" class="one box">
+				<h1>Soummetter votre projet</h1>
 
-			<div class="two box">
-				2.1
-			</div>
+				<h2>Si votre projet est une vidéo...</h2>
+				<div id="video">
+					<form id="form_video">
 
-			<div class="two box">
-				2.2
-			</div>
+						<p>1. Soummettez le lien de votre projet </p>
 
-			<div class="three box">
-				3.1
-			</div>
+						<input name="url_video" type="label">
 
-			<div class="three box">
-				3.2
-			</div>
+						<p>2. Écrivez une courte description de vote projet.</p>
 
-			<div class="three box">
-				3.3
+						<textarea rows="4" cols="50">
+							Entrez description ici
+						</textarea>
+
+						<p>3. Écrivez le nom des auteurs du projet</p>
+
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+
+						<p>4. Le nom du cours ou de l'activité dans laquelle le projet a été développé.</p>
+
+						<input type="label" name="auteur">
+
+						<p>5. La catégorie du projet</p>
+
+						<select>
+							<option>Éducatif</option>
+							<option>Sport</option>
+							<option>Multimédia</option>
+							<option>Littérature</option>
+						</select>
+
+						<input type="submit">
+
+					</form>
+
+				</div><!--__________________________________________________________Fin div video-->
+
+				<h2>Si votre projet est un texte ...</h2>
+				<div id="texte">
+					<form id="form_texte">
+					
+						<p>1. Copier votre texte.</p>
+
+						<textarea rows="10" cols="60">
+							Écrivez votre texte ici
+						</textarea>
+
+						<p>2. Écrivez le nom des auteurs du projet</p>
+
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+
+						<p>3. Le nom du cour ou de l'activité dans laquelle le projet a été développé.</p>
+
+						<input type="label" name="cour">
+
+						<p>4. La catégorie du projet</p>
+
+						<select name="categorie">
+							<option>Éducatif</option>
+							<option>Sport</option>
+							<option>Multimédia</option>
+							<option>Littérature</option>
+						</select>
+
+						<p>5. Entrez une image.  (optionnel)</p>
+
+						<input type="file" name="image">
+
+						<input type="submit">
+
+					</form>
+
+				</div><!--__________________________________________________________Fin div Texte-->
+
+				<h2>Si votre projet est un fichier sonore ...</h2>
+				<div id="son">
+					<form id="form_son">
+					
+						<p>1. Soummettez le lien de votre projet.</p>
+
+						<input name="url_video" type="label">
+
+						<p>2. Écrivez une courte description de votre projet.</p>
+
+						<textarea rows="4" cols="50">
+							Entrez description ici
+						</textarea>
+
+						<p>3. Écrivez le nom des auteurs du projet.</p>
+
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+
+						<p>4. Le nom du cour ou de l'activité dans laquelle le projet a été développé.</p>
+
+						<input type="label" name="cour">
+
+						<p>5. La catégorie du projet</p>
+
+						<select name="categorie">
+							<option>Éducatif</option>
+							<option>Sport</option>
+							<option>Multimédia</option>
+							<option>Littérature</option>
+						</select>
+
+						<input type="submit">
+
+					</form>
+				</div><!--__________________________________________________________Fin div Son-->
+
+				<h2>Si votre projet comporte plusieurs images ...</h2>
+				<div id="image">
+					<form id="form_image">
+					
+						<p>1. Ajoutez la ou les images.</p>
+
+						<input name="image" type="file">
+						<input name="image" type="file">
+						<input name="image" type="file">
+
+						<p>2. Écrivez une courte description de votre projet.</p>
+
+						<textarea rows="4" cols="50">
+							Entrez description ici
+						</textarea>
+
+						<p>3. Écrivez le nom des auteurs du projet.</p>
+
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+
+						<p>4. Le nom du cour ou de l'activité dans laquelle le projet a été développé.</p>
+
+						<input type="label" name="cour">
+
+						<p>5. La catégorie du projet</p>
+
+						<select name="categorie">
+							<option>Éducatif</option>
+							<option>Sport</option>
+							<option>Multimédia</option>
+							<option>Littérature</option>
+						</select>
+
+						<input type="submit">
+
+					</form>
+
+				</div><!--__________________________________________________________Fin div Image-->
+
 			</div>
 
 			<hr>
@@ -107,5 +249,6 @@
         <script>window.jQuery || document.write('<script src="./js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="./js/plugins.js"></script>
         <script src="./js/main.js"></script>
+        <script src="./js/form.js"></script>
     
 </body></html>
