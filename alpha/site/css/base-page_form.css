@@ -1,33 +1,42 @@
+/* line 1, ../scss/base-page_form.scss */
 .main-align {
   background-color: transparent;
 }
+/* line 3, ../scss/base-page_form.scss */
 .main-align.left {
   width: 188px;
   height: 50px;
 }
+/* line 7, ../scss/base-page_form.scss */
 .main-align.right {
   width: 214px;
   height: 50px;
 }
 
+/* line 14, ../scss/base-page_form.scss */
 .main.wrapper {
   text-align: center;
 }
+/* line 16, ../scss/base-page_form.scss */
 .main.wrapper main {
   text-align: left;
   padding: 50px 0px 0px 15px;
   width: 575px;
 }
+/* line 20, ../scss/base-page_form.scss */
 .main.wrapper main > .one.box {
   width: 560px;
 }
+/* line 23, ../scss/base-page_form.scss */
 .main.wrapper main > .two.box {
   width: 272.5px;
 }
+/* line 26, ../scss/base-page_form.scss */
 .main.wrapper main > .three.box {
   width: 176.66667px;
 }
 
+/* line 32, ../scss/base-page_form.scss */
 .box {
   padding: 0px;
   margin: 15px 15px 0px 0px;

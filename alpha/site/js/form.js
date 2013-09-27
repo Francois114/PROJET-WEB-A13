@@ -1,6 +1,3 @@
-alert("lol");
-
-
 $(function() {
             
 

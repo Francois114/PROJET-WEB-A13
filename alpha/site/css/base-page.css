@@ -1,28 +1,18 @@
-<<<<<<< HEAD
 /* line 1, ../scss/base-page.scss */
 .main-align {
   background-color: transparent;
 }
 /* line 3, ../scss/base-page.scss */
-=======
-.main-align {
-  background-color: transparent;
-}
->>>>>>> pr/13
 .main-align.left {
   width: 188px;
   height: 50px;
 }
-<<<<<<< HEAD
 /* line 7, ../scss/base-page.scss */
-=======
->>>>>>> pr/13
 .main-align.right {
   width: 214px;
   height: 50px;
 }
 
-<<<<<<< HEAD
 /* line 14, ../scss/base-page.scss */
 .main.wrapper {
   text-align: center;
@@ -30,7 +20,7 @@
 /* line 16, ../scss/base-page.scss */
 .main.wrapper main {
   text-align: left;
-  padding: 50px 0px 0px 15px;
+  padding: 50px 0px 0px 0px;
   width: 575px;
 }
 /* line 20, ../scss/base-page.scss */
@@ -42,43 +32,11 @@
   width: 272.5px;
 }
 /* line 26, ../scss/base-page.scss */
-=======
-.main.wrapper {
-  text-align: center;
-}
-.main.wrapper main {
-  text-align: left;
-  padding: 50px 0px 0px 0px;
-  width: 575px;
-}
-.main.wrapper main > .one.box {
-  width: 560px;
-}
-.main.wrapper main > .one.box input, .main.wrapper main > .one.box select, .main.wrapper main > .one.box textarea {
-  display: block;
-  margin: 4%;
-}
-.main.wrapper main > .one.box .description {
-  height: 200px;
-}
-.main.wrapper main > .one.box div, .main.wrapper main > .one.box h2 {
-  margin-left: 5%;
-}
-.main.wrapper main > .one.box p {
-  padding: 15px;
-}
-.main.wrapper main > .two.box {
-  width: 272.5px;
-}
->>>>>>> pr/13
 .main.wrapper main > .three.box {
   width: 176.66667px;
 }
 
-<<<<<<< HEAD
 /* line 32, ../scss/base-page.scss */
-=======
->>>>>>> pr/13
 .box {
   padding: 0px;
   margin: 15px 15px 0px 0px;
@@ -88,11 +46,9 @@
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
-<<<<<<< HEAD
-=======
+/* line 40, ../scss/base-page.scss */
 .box img {
   width: 100%;
   display: block;
   margin-top: 15px;
 }
->>>>>>> pr/13
