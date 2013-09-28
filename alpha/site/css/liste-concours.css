@@ -1,0 +1,110 @@
+/* line 1, ../scss/liste-concours.scss */
+.main-align {
+  background-color: transparent;
+}
+/* line 3, ../scss/liste-concours.scss */
+.main-align.left {
+  width: 188px;
+  height: 50px;
+}
+/* line 7, ../scss/liste-concours.scss */
+.main-align.right {
+  width: 214px;
+  height: 50px;
+}
+
+/* line 14, ../scss/liste-concours.scss */
+.main.wrapper {
+  text-align: center;
+}
+/* line 16, ../scss/liste-concours.scss */
+.main.wrapper main {
+  text-align: left;
+  padding: 50px 0px 0px 0px;
+  width: 575px;
+}
+/* line 20, ../scss/liste-concours.scss */
+.main.wrapper main > .one.box {
+  margin: 15px 0px 0px 0px;
+  width: 560px;
+}
+/* line 24, ../scss/liste-concours.scss */
+.main.wrapper main > .two.box {
+  width: 272.5px;
+}
+/* line 27, ../scss/liste-concours.scss */
+.main.wrapper main > .three.box {
+  width: 176.66667px;
+}
+
+/* line 33, ../scss/liste-concours.scss */
+.box {
+  padding: 0px;
+  margin: 15px 15px 0px 0px;
+  background-color: #FFF;
+  float: left;
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* line 41, ../scss/liste-concours.scss */
+.box.transparent {
+  background-color: transparent;
+  -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+/* line 47, ../scss/liste-concours.scss */
+.box.list {
+  height: 185px;
+}
+/* line 49, ../scss/liste-concours.scss */
+.box.list a {
+  text-decoration: none;
+  color: #4F4F4F;
+}
+/* line 52, ../scss/liste-concours.scss */
+.box.list a:hover {
+  text-decoration: underline;
+}
+/* line 56, ../scss/liste-concours.scss */
+.box.list .title {
+  padding: 0px;
+  margin: 15px 15px 0px 0px;
+  max-width: 306px;
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+}
+/* line 66, ../scss/liste-concours.scss */
+.box.list p {
+  width: 306px;
+  display: block;
+  float: left;
+}
+/* line 70, ../scss/liste-concours.scss */
+.box.list p.author {
+  margin: 0px 15px 0px 0px;
+  font-size: 11px;
+  color: #aaaaaa;
+}
+/* line 74, ../scss/liste-concours.scss */
+.box.list p.author a {
+  color: #aaaaaa;
+}
+/* line 78, ../scss/liste-concours.scss */
+.box.list p.content {
+  margin: 5px 15px 0px 0px;
+  font-size: 15px;
+  text-align: justify;
+}
+/* line 84, ../scss/liste-concours.scss */
+.box.list img {
+  float: left;
+  height: 185px;
+  width: 224px;
+  margin-right: 15px;
+  display: block;
+}
