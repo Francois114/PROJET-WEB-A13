@@ -67,10 +67,10 @@ $(".search .background .field").focusout(function(){
 
 
 
-<<<<<<< HEAD
-$(window).resize(function() {
-=======
+
 /*$(window).resize(function() {
+
+$(window).resize(function() {
 >>>>>>> pr/13
 
 	var nbrArticle = $("main > .s-width-tile").length;
@@ -99,7 +99,7 @@ $(window).resize(function() {
 =======
 >>>>>>> upstream/master
 });*/
->>>>>>> pr/13
+
 
 
 
