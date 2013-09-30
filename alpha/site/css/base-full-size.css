@@ -1,4 +1,26 @@
+<<<<<<< HEAD
 /* line 1, ../scss/base-full-size.scss */
+=======
+#nav_secondaire {
+  height: 250px;
+  background-color: white;
+  box-shadow: inset 0px 0px 10px 5px;
+  position: fixed;
+  top: 50px;
+  padding: 1% 2% 0 2%;
+  width: 100%;
+}
+#nav_secondaire div {
+  display: inline-table;
+}
+#nav_secondaire .departement {
+  margin-right: 5%;
+}
+#nav_secondaire .departement p {
+  width: 150px;
+}
+
+>>>>>>> pr/14
 .main.wrapper {
   text-align: center;
 }
@@ -27,11 +49,18 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s;
   transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s;
+<<<<<<< HEAD
+=======
+  /*p{
+  	font-size: 0.5em;
+  }*/
+>>>>>>> pr/14
 }
 /* line 27, ../scss/base-full-size.scss */
 .box img {
   width: 100%;
 }
+<<<<<<< HEAD
 /* line 30, ../scss/base-full-size.scss */
 .box p {
   font-size: 0.5em;
@@ -39,4 +68,32 @@
 /* line 33, ../scss/base-full-size.scss */
 .box .author {
   font-size: 0.4em;
+=======
+.box .author {
+  font-size: 0.7em;
+}
+.box .recherche {
+  width: 50px;
+  height: 50px;
+}
+.box p, .box h1 {
+  padding: 15px;
+  text-align: justify;
+>>>>>>> pr/14
+}
+.box .suite {
+  padding: 0 0 0 15px;
+}
+.box .suite a {
+  color: #404040;
+}
+
+.box:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.box:hover .suite {
+  display: block;
+}
+.box:hover .suite a {
+  color: #FF5F00;
 }
