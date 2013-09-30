@@ -20,91 +20,35 @@
 /* line 16, ../scss/base-page.scss */
 .main.wrapper main {
   text-align: left;
-  padding: 50px 15px 15px 15px;
+  padding: 50px 0px 0px 0px;
   width: 575px;
 }
-/* line 21, ../scss/base-page.scss */
+/* line 20, ../scss/base-page.scss */
 .main.wrapper main > .one.box {
   width: 560px;
-  padding: 50px 15px 0px 0px;
-  width: 575px;
 }
-/* line 26, ../scss/base-page.scss */
-.main.wrapper main > .one.box > .one.box {
-  width: 560px;
-  /*p{
-  	padding: 50px;
-  	
-  }*/
-}
-/* line 31, ../scss/base-page.scss */
-.main.wrapper main > .one.box > .one.box input, .main.wrapper main > .one.box > .one.box select, .main.wrapper main > .one.box > .one.box textarea {
-  display: block;
-  margin: 4%;
-}
-/* line 35, ../scss/base-page.scss */
-.main.wrapper main > .one.box > .one.box h1 {
-  margin-left: 15px;
-}
-/* line 41, ../scss/base-page.scss */
-.main.wrapper main > .one.box > .one.box .description {
-  height: 200px;
-}
-/* line 44, ../scss/base-page.scss */
-.main.wrapper main > .one.box > .one.box div, .main.wrapper main > .one.box > .one.box h2 {
-  margin-left: 5%;
-}
-/* line 52, ../scss/base-page.scss */
-.main.wrapper main > .one.box > .two.box {
+/* line 23, ../scss/base-page.scss */
+.main.wrapper main > .two.box {
   width: 272.5px;
 }
-/* line 56, ../scss/base-page.scss */
-.main.wrapper main > .one.box > .three.box {
+/* line 26, ../scss/base-page.scss */
+.main.wrapper main > .three.box {
   width: 176.66667px;
 }
-/* line 62, ../scss/base-page.scss */
-.main .box {
-  margin: 15px 15px 20px 0px;
+
+/* line 32, ../scss/base-page.scss */
+.box {
+  padding: 0px;
+  margin: 15px 15px 0px 0px;
   background-color: #FFF;
   float: left;
   -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
-/* line 73, ../scss/base-page.scss */
-.main .projet {
+/* line 40, ../scss/base-page.scss */
+.box img {
   width: 100%;
   display: block;
   margin-top: 15px;
-}
-/* line 79, ../scss/base-page.scss */
-.main h2 {
-  background-color: #eaeaea;
-  height: 20%;
-  margin-bottom: 0px;
-  width: 50%;
-  position: relative;
-  top: -80px;
-  left: -20px;
-  box-shadow: 3px 2px 10px -4px;
-}
-/* line 89, ../scss/base-page.scss */
-.main .img_profil {
-  width: 75px;
-  height: 75px;
-  margin-right: 6%;
-}
-/* line 94, ../scss/base-page.scss */
-.main p {
-  padding: 15px;
-}
-/* line 97, ../scss/base-page.scss */
-.main .commentaire {
-  margin: 0px;
-}
-/* line 100, ../scss/base-page.scss */
-.main .commentaire, .main input, .main textarea {
-  margin-left: 15px;
-  position: relative;
-  top: -40px;
 }

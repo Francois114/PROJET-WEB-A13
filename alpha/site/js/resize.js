@@ -1,5 +1,3 @@
-
-
 $(window).resize(function() {
 
 	var nbrArticle = $("main > .s-width-tile").length;
