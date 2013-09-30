@@ -59,33 +59,180 @@
 		<main class="center">
 			
 
-			
+
 
 
 
 
 
 			<!-- Tout les modification ce font ici -->
-			<div class="one box">
-				<h1>Concour d'affiche du TIM</h1>
-			
-				<p class="content">
-					Le réchauffement climatique, également appelé réchauffement planétaire, ou réchauffement global, est un phénomène d'augmentation de la température moyenne des océans et de l'atmosphère, mesuré à l'échelle mondiale sur plusieurs décennies, et qui traduit une augmentation de la quantité de chaleur de la surface terrestre. Dans son acception commune, ce terme est appliqué à une tendance au réchauffement global observé depuis le début du xxe siècle.
-					En 1988, l'ONU crée le Groupe intergouvernemental sur l'évolution du climat (GIEC) chargé de faire une synthèse des études scientifiques sur cette question. Dans son dernier et quatrième rapport, auquel ont participé plus de 2 500 scientifiques de 130 pays1, le GIEC affirme que le réchauffement climatique depuis 1950 est très probablementc 1 dû à l'augmentation des gaz à effet de serre d'origine anthropique. Ces conclusions ont été approuvées par plus de 40 sociétés scientifiques et académies des sciences, y compris l'ensemble des académies nationales des sciences des grands pays industrialisés2. Dans une étude publiée fin 2012, qui a compilé et comparé des simulations issues de 20 modèles informatiques différents et des informations issues des observations satellites, une équipe de climatologues du Lawrence Livermore National Laboratory 3 du DOE et de 16 autres organisations a conclu que les changements de température de la troposphère et de la stratosphère sont bien réels et qu'ils sont clairemen
-				</p>
-				<img class="projet" src="img/poster.jpg"/>
-				<p class="one box">
-					Commentaire: 5 <br/>
-	                Auteur: Jean Béliveau<br/>
-	                Date: 21 juillet 2013<br/>
-				</p>
+			<div id="contenu" class="one box">
+				<h1>Soummetter votre projet</h1>
+
+				<h2>Si votre projet est une vidéo...</h2>
+				<div id="video">
+					<form id="form_video">
+
+						<p>1. Soummettez le lien de votre projet </p>
+
+						<input name="url_video" type="label">
+
+						<p>2. Écrivez une courte description de vote projet.</p>
+
+						<textarea rows="4" cols="50">
+							Entrez description ici
+						</textarea>
+
+						<p>3. Écrivez le nom des auteurs du projet</p>
+
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+
+						<p>4. Le nom du cours ou de l'activité dans laquelle le projet a été développé.</p>
+
+						<input type="label" name="auteur">
+
+						<p>5. La catégorie du projet</p>
+
+						<select>
+							<option>Éducatif</option>
+							<option>Sport</option>
+							<option>Multimédia</option>
+							<option>Littérature</option>
+						</select>
+
+						<input type="submit">
+
+					</form>
+
+				</div><!--__________________________________________________________Fin div video-->
+
+				<h2>Si votre projet est un texte ...</h2>
+				<div id="texte">
+					<form id="form_texte">
+					
+						<p>1. Copier votre texte.</p>
+
+						<textarea rows="10" cols="60">
+							Écrivez votre texte ici
+						</textarea>
+
+						<p>2. Écrivez le nom des auteurs du projet</p>
+
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+
+						<p>3. Le nom du cour ou de l'activité dans laquelle le projet a été développé.</p>
+
+						<input type="label" name="cour">
+
+						<p>4. La catégorie du projet</p>
+
+						<select name="categorie">
+							<option>Éducatif</option>
+							<option>Sport</option>
+							<option>Multimédia</option>
+							<option>Littérature</option>
+						</select>
+
+						<p>5. Entrez une image.  (optionnel)</p>
+
+						<input type="file" name="image">
+
+						<input type="submit">
+
+					</form>
+
+				</div><!--__________________________________________________________Fin div Texte-->
+
+				<h2>Si votre projet est un fichier sonore ...</h2>
+				<div id="son">
+					<form id="form_son">
+					
+						<p>1. Soummettez le lien de votre projet.</p>
+
+						<input name="url_video" type="label">
+
+						<p>2. Écrivez une courte description de votre projet.</p>
+
+						<textarea rows="4" cols="50">
+							Entrez description ici
+						</textarea>
+
+						<p>3. Écrivez le nom des auteurs du projet.</p>
+
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+
+						<p>4. Le nom du cour ou de l'activité dans laquelle le projet a été développé.</p>
+
+						<input type="label" name="cour">
+
+						<p>5. La catégorie du projet</p>
+
+						<select name="categorie">
+							<option>Éducatif</option>
+							<option>Sport</option>
+							<option>Multimédia</option>
+							<option>Littérature</option>
+						</select>
+
+						<input type="submit">
+
+					</form>
+				</div><!--__________________________________________________________Fin div Son-->
+
+				<h2>Si votre projet comporte plusieurs images ...</h2>
+				<div id="image">
+					<form id="form_image">
+					
+						<p>1. Ajoutez la ou les images.</p>
+
+						<input name="image" type="file">
+						<input name="image" type="file">
+						<input name="image" type="file">
+
+						<p>2. Écrivez une courte description de votre projet.</p>
+
+						<textarea rows="4" cols="50">
+							Entrez description ici
+						</textarea>
+
+						<p>3. Écrivez le nom des auteurs du projet.</p>
+
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+						<input type="label" name="auteur">
+
+						<p>4. Le nom du cour ou de l'activité dans laquelle le projet a été développé.</p>
+
+						<input type="label" name="cour">
+
+						<p>5. La catégorie du projet</p>
+
+						<select name="categorie">
+							<option>Éducatif</option>
+							<option>Sport</option>
+							<option>Multimédia</option>
+							<option>Littérature</option>
+						</select>
+
+						<input type="submit">
+
+					</form>
+
+				</div><!--__________________________________________________________Fin div Image-->
+
 			</div>
-			<div class="one box">
-			     
-				<h2><img class="img_profil" src="img/facebook.jpg">Inconnu</h2>
-            
-			</div>	
-			
+
+			<hr>
 
 			<div class="footer-container">	
 				<footer>
@@ -102,5 +249,6 @@
         <script>window.jQuery || document.write('<script src="./js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="./js/plugins.js"></script>
         <script src="./js/main.js"></script>
+        <script src="./js/form.js"></script>
     
 </body></html>
