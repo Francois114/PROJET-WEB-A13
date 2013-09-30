@@ -1,20 +1,14 @@
-alert("lol");
+//alert("lol");
 
 $(function() {
             
 
-            $("#nav_secondaire").css("display","none");
+           // $("#nav_secondaire").css("display","none");
             
-            $("#explorer, #nav_secondaire").hover(function(){
+            $("#explorer").hover(function(){
 
-            	$("#nav_secondaire").slideToggle("slow").siblings("div:visible");
-				
-				/*$("#nav_secondaire").hover(function(){
-
-            		$(this).css("display","block");
-				
-				});*/
-				
+            	$("#nav_secondaire").slideToggle("slow");
+		
 
             });
 

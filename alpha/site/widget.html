@@ -16,7 +16,7 @@
 
 
         <!-- mettron le nom du fichier html pour chacun de vos page -->
-        <link rel="stylesheet" href="./css/base-full-size.css">
+        <link rel="stylesheet" href="./css/base-full-size-widget.css">
 
 
 
@@ -37,7 +37,74 @@
 </div>	<div class="center">
 	<nav>
 	    <ul class="clearfix Open-Sans-normal-400">
-	        <li id="explorer"><a href="./invite/explorer-liste-projet.html">EXPLOREZ</a></li>
+	        <li id="explorer">
+	        	<a href="./invite/explorer-liste-projet.html">EXPLOREZ</a>
+	        	<div id="nav_secondaire">
+			        <div class="departement">
+			            <h2>Département</h2>
+			            <form>
+			                <div>
+			                    <p><input type="checkbox">Français</p>
+			                    <p><input type="checkbox">Philosophie</p>
+			                    <p><input type="checkbox">Histoire</p>
+			                    <p><input type="checkbox">Informatique</p>
+			                    
+			                </div>
+			                <div>
+			                <!--<h2>Dépatement</h2>-->
+			                    <p><input type="checkbox">Diététique</p>
+			                    <p><input type="checkbox">Art</p>
+			                    <p><input type="checkbox">Science</p>
+			                    <p><input type="checkbox">Éduc</p>
+			                </div> 
+			                <div>
+			                <!--<h2>Dépatement</h2>-->
+			                    <p><input type="checkbox">Psychologie</p>
+			                    <p><input type="checkbox">Autre</p>
+			                </div>       
+			        	</form>
+			        </div> 
+			        <div class="departement">
+			            <h2>Média</h2>
+			            <form>
+			                <div>
+			                    <p><input type="checkbox">Vidéo</p>
+			                    <p><input type="checkbox">Audio</p>
+			                    <p><input type="checkbox">Texte</p>
+			                    <p><input type="checkbox">Photo</p>
+			                    
+			                </div>
+			                <div>
+			                <!--<h2>Dépatement</h2>-->
+			            
+			                    <p><input type="checkbox">Art</p>
+			                    
+			                </div>     
+			            </form> 
+			        </div> 
+
+			        <div class="departement">
+			            <h2>Catégorie</h2>
+			            <form>
+			                <div>
+			                    <p><input type="checkbox">Tutoriel</p>
+			                    <p><input type="checkbox">Réalisation</p>
+			                    <p><input type="checkbox">Court métrage</p>
+			                    <p><input type="checkbox">Photgraphie</p>
+			                    
+			                </div>
+			                <div>
+			                <!--<h2>Dépatement</h2>-->
+			            
+			                    <p><input type="checkbox">Projet multmédia</p>
+			                    <p><input type="checkbox">Éducatif</p>
+			                    
+			                </div>     
+			            </form> 
+			        </div>  
+
+			    </div>
+	        </li>
 	        <li><a href="./invite/liste-concours.html">CONCOURS</a></li>
 	        <li><a href="./invite/liste-actualite.html">ACTUALITÉS</a></li>
 	        <li><a href="./invite/apropos.html">À PROPOS</a></li>
@@ -52,79 +119,7 @@
 	<div class="btn"></div>
 </div></header>	<div class="side-nav-wrapper unselectable">
 	<form method="POST" action="./invite/connection.html" accept-charset="UTF-8" class="side-nav-login"><input name="_token" type="hidden" value="NGj1bbPvK4L6FC3RNj1yoTw4VRDh41vq9ELx8yP1">	<input name="username" type="text" value="Nom d&#39;utilisateur">	<input class="change-to-password" name="password" type="text" value="Mot de passe">	<input type="submit" value="Connection">	</form></div>	<div class="ici-la-connection"></div>
-	<div id="nav_secondaire">
-
-
-        <div class="departement">
-            <h2>Département</h2>
-            <form>
-                <div>
-                    <p><input type="checkbox">Français</p>
-                    <p><input type="checkbox">Philosophie</p>
-                    <p><input type="checkbox">Histoire</p>
-                    <p><input type="checkbox">Informatique</p>
-                    
-                </div>
-                <div>
-                <!--<h2>Dépatement</h2>-->
-            
-                    <p><input type="checkbox">Diététique</p>
-                    <p><input type="checkbox">Art</p>
-                    <p><input type="checkbox">Science</p>
-                    <p><input type="checkbox">Éduc</p>
-                    
-                </div> 
-                <div>
-                <!--<h2>Dépatement</h2>-->
-            
-                    <p><input type="checkbox">Psychologie</p>
-                    <p><input type="checkbox">Autre</p>
-
-                    
-                </div>       
-             
-        </div> 
-        </form>
-        <div class="departement">
-            <h2>Média</h2>
-            <form>
-                <div>
-                    <p><input type="checkbox">Vidéo</p>
-                    <p><input type="checkbox">Audio</p>
-                    <p><input type="checkbox">Texte</p>
-                    <p><input type="checkbox">Photo</p>
-                    
-                </div>
-                <div>
-                <!--<h2>Dépatement</h2>-->
-            
-                    <p><input type="checkbox">Art</p>
-                    
-                </div>     
-            </form> 
-        </div> 
-
-        <div class="departement">
-            <h2>Catégorie</h2>
-            <form>
-                <div>
-                    <p><input type="checkbox">Tutoriel</p>
-                    <p><input type="checkbox">Réalisation</p>
-                    <p><input type="checkbox">Court métrage</p>
-                    <p><input type="checkbox">Photgraphie</p>
-                    
-                </div>
-                <div>
-                <!--<h2>Dépatement</h2>-->
-            
-                    <p><input type="checkbox">Projet multmédia</p>
-                    <p><input type="checkbox">Éducatif</p>
-                    
-                </div>     
-            </form> 
-        </div>  
-
-    </div>
+	
 	<div class="main wrapper">
 		<main class="center">
 			<article class="box s-width-tile">

@@ -8,7 +8,6 @@
   height: 5000px;
 }
 .main.wrapper > main > article {
-  display: inline;
   float: left;
   text-align: left;
   width: 268px;
@@ -24,17 +23,13 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   -webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s;
   transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s;
-  /*p{
-  	font-size: 0.5em;
-  }
-  .author{
-  	font-size: 0.4em;
-  }*/
 }
 .box img {
   width: 100%;
 }
-.box p, .box h1 {
-  padding: 15px;
-  text-align: justify;
+.box p {
+  font-size: 0.5em;
+}
+.box .author {
+  font-size: 0.4em;
 }
