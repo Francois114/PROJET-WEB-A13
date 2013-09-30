@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  * HTML5 Boilerplate
  *
@@ -8,6 +9,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+/* line 17, ../scss/main.scss */
 html,
 button,
 input,
@@ -16,10 +18,12 @@ textarea {
   color: #222;
 }
 
+/* line 21, ../scss/main.scss */
 html {
   min-height: 100%;
 }
 
+/* line 25, ../scss/main.scss */
 body {
   min-height: 100%;
   font-size: 1em;
@@ -33,11 +37,13 @@ body {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
+/* line 40, ../scss/main.scss */
 ::-moz-selection {
   background: #C4C4C4;
   text-shadow: none;
 }
 
+/* line 45, ../scss/main.scss */
 ::selection {
   background: #C4C4C4;
   text-shadow: none;
@@ -46,6 +52,7 @@ body {
 /*
  * A better looking default horizontal rule
  */
+/* line 54, ../scss/main.scss */
 hr {
   display: block;
   height: 1px;
@@ -58,6 +65,7 @@ hr {
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
+/* line 67, ../scss/main.scss */
 img {
   vertical-align: middle;
 }
@@ -65,6 +73,7 @@ img {
 /*
  * Remove default fieldset styles.
  */
+/* line 75, ../scss/main.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -74,6 +83,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
+/* line 85, ../scss/main.scss */
 textarea {
   resize: vertical;
 }
@@ -81,6 +91,7 @@ textarea {
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
+/* line 93, ../scss/main.scss */
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -91,11 +102,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+/* line 104, ../scss/main.scss */
+#gallery-home {
+  height: 250px;
+}
 
 /*  ==========================================================================
     Navigation
     ========================================================================== */
+/* line 22, ../scss/header.scss */
 header {
   width: 100%;
   height: 50px;
@@ -110,20 +125,24 @@ header {
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
+/* line 33, ../scss/header.scss */
 header .btn.active {
   background-color: #0099cc;
 }
+/* line 36, ../scss/header.scss */
 header nav {
   margin: 0 auto;
   font-size: 12px;
 }
 
+/* line 42, ../scss/header.scss */
 .header-container {
   width: 100%;
   height: 50px;
   background: #00bce8;
   color: white;
 }
+/* line 47, ../scss/header.scss */
 .header-container .search-container {
   width: 240px;
   height: 50px;
@@ -131,12 +150,14 @@ header nav {
   float: right;
 }
 
+/* line 55, ../scss/header.scss */
 .side-nav-header {
   width: 188px;
   height: 50px;
   text-align: left;
 }
 
+/* line 61, ../scss/header.scss */
 .side-nav-header-background {
   position: absolute;
   top: 0px;
@@ -149,6 +170,7 @@ header nav {
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 }
 
+/* line 71, ../scss/header.scss */
 .side-nav-header-btn {
   position: absolute;
   top: 0px;
@@ -164,19 +186,23 @@ header nav {
   -webkit-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
   transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
 }
+/* line 81, ../scss/header.scss */
 .side-nav-header-btn:hover {
   cursor: pointer;
   background-color: #0099cc;
 }
+/* line 85, ../scss/header.scss */
 .side-nav-header-btn.active:hover {
   background-image: url("../img/side-nav-header-btn-dark.png");
 }
 
+/* line 90, ../scss/header.scss */
 .librexpo-title-wrapper {
   margin: 0;
   text-align: center;
 }
 
+/* line 95, ../scss/header.scss */
 .librexpo-title {
   position: absolute;
   top: 0px;
@@ -195,42 +221,50 @@ header nav {
   -webkit-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
   transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
 }
+/* line 108, ../scss/header.scss */
 .librexpo-title:hover {
   background-color: #0099cc;
 }
+/* line 111, ../scss/header.scss */
 .librexpo-title.active:hover {
   color: #069;
   background-color: transparent;
 }
 
+/* line 117, ../scss/header.scss */
 .xpo {
   text-align: left;
 }
 
-ul {
+/* line 121, ../scss/header.scss */
+header ul {
   list-style: none outside none;
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
 }
-ul li {
+/* line 127, ../scss/header.scss */
+header ul li {
   -moz-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
   -ms-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
   -o-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
   -webkit-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
   transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
 }
-ul li a {
+/* line 129, ../scss/header.scss */
+header ul li a {
   display: block;
   text-decoration: none;
   white-space: normal;
 }
-ul > li {
+/* line 135, ../scss/header.scss */
+header ul > li {
   float: left;
   text-align: left;
 }
-ul > li > a {
+/* line 138, ../scss/header.scss */
+header ul > li > a {
   color: white;
   display: block;
   font-size: 1.3em;
@@ -238,21 +272,26 @@ ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
 }
-ul > li:hover {
+/* line 146, ../scss/header.scss */
+header ul > li:hover {
   background-color: #0099cc;
 }
-ul > li.active > a {
+/* line 149, ../scss/header.scss */
+header ul > li.active > a {
   background-color: #0099cc;
   color: #069;
 }
-ul > a:hover {
+/* line 155, ../scss/header.scss */
+header ul > a:hover {
   background-color: #0099cc;
 }
-ul > a.active {
+/* line 158, ../scss/header.scss */
+header ul > a.active {
   background-color: #0099cc;
   color: #069;
 }
 
+/* line 165, ../scss/header.scss */
 .search-field-wrapper {
   height: 50px;
   line-height: 50px;
@@ -264,11 +303,13 @@ ul > a.active {
   background-color: #0099cc;
 }
 
+/* line 177, ../scss/header.scss */
 .search {
   width: 214px;
   height: 50px;
   overflow: hidden;
 }
+/* line 181, ../scss/header.scss */
 .search .field {
   border: 0px;
   /*important*/
@@ -281,9 +322,11 @@ ul > a.active {
   height: 20px;
   float: left;
 }
+/* line 190, ../scss/header.scss */
 .search .field:focus {
   outline-width: 0px;
 }
+/* line 194, ../scss/header.scss */
 .search .background {
   position: absolute;
   right: -214px;
@@ -293,6 +336,7 @@ ul > a.active {
   font-size: 12px;
   background-color: #0099cc;
 }
+/* line 203, ../scss/header.scss */
 .search .btn {
   width: 50px;
   height: 50px;
@@ -308,11 +352,13 @@ ul > a.active {
   -webkit-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
   transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s, background-image 400ms ease-in-out 0s;
 }
+/* line 213, ../scss/header.scss */
 .search .btn:hover {
   background-color: #0099cc;
   cursor: pointer;
 }
 
+/* line 220, ../scss/header.scss */
 .search-btn {
   border: 0px;
   /*important*/
@@ -322,6 +368,7 @@ ul > a.active {
   float: right;
 }
 
+/* line 227, ../scss/header.scss */
 .side-nav-wrapper {
   width: 188px;
   height: 100%;
@@ -330,25 +377,19 @@ ul > a.active {
   position: fixed;
   left: -188px;
   top: 0px;
-  padding-top: 50px;
+  margin-top: 50px;
+  padding-top: 15px;
   -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 }
 
-
-/*
-
-
-A MODIFIER
-
-
-
-*/
+/* line 240, ../scss/header.scss */
 .side-nav-login {
   margin-top: 50px;
   width: 188px;
 }
+/* line 243, ../scss/header.scss */
 .side-nav-login input {
   width: 158px;
   margin: 0px 15px;
@@ -360,24 +401,28 @@ A MODIFIER
   color: #069;
 }
 
+/* line 253, ../scss/header.scss */
 .Open-Sans-normal-700 {
   font-family: 'Open Sans' !important;
   font-style: normal;
   font-weight: 700;
 }
 
+/* line 259, ../scss/header.scss */
 .Open-Sans-normal-400 {
   font-family: 'Open Sans' !important;
   font-style: normal;
   font-weight: 400;
 }
 
+/* line 265, ../scss/header.scss */
 .Open-Sans-italic-300 {
   font-family: 'Open Sans' !important;
   font-style: italic;
   font-weight: 300;
 }
 
+/* line 119, ../scss/main.scss */
 .ici-la-connection {
   position: fixed;
   margin-top: 50px;
@@ -386,25 +431,70 @@ A MODIFIER
   background-image: url("../img/cliquez-ici-pour-connecter.png");
 }
 
+/* line 127, ../scss/main.scss */
+.main-align {
+  background-color: transparent;
+}
+/* line 129, ../scss/main.scss */
+.main-align.left {
+  width: 188px;
+  height: 50px;
+}
+/* line 132, ../scss/main.scss */
+.main-align.right {
+  width: 214px;
+  height: 50px;
+}
+
+/* line 139, ../scss/main.scss */
+.main.wrapper {
+  text-align: center;
+}
+/* line 142, ../scss/main.scss */
+.main.content {
+  text-align: left;
+  padding: 50px 0px 0px 15px;
+  width: 575px;
+}
+/* line 147, ../scss/main.scss */
+.main > article {
+  padding: 15px;
+  margin: 15px 15px 0px 0px;
+  background-color: #FFF;
+  float: left;
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* line 153, ../scss/main.scss */
+.main > article.widget {
+  width: 146.66667px;
+}
+
+/* line 159, ../scss/main.scss */
 .footer-container {
   float: left;
   padding-right: 15px;
 }
 
+/* line 164, ../scss/main.scss */
 .right {
   float: right;
 }
 
+/* line 167, ../scss/main.scss */
 .left {
   float: left;
 }
 
 /* ne pas oublier de mettre l'élément parent en text-align: center; */
+/* line 172, ../scss/main.scss */
 .center {
   margin: 0 auto !important;
   display: inline-block;
 }
 
+/* line 177, ../scss/main.scss */
 .unselectable {
   -WEBKIT-USER-SELECT: NONE;
   /* SAFARI, CHROME */
@@ -419,14 +509,10 @@ A MODIFIER
   /* CSS3 */
 }
 
+/* line 186, ../scss/main.scss */
 .no-pm {
   padding: 0;
   margin: 0;
-}
-
-.footer-container{
-  margin-top: 15px;
-  padding: 0px 15px 0px 15px; 
 }
 
 /* ==========================================================================
@@ -435,6 +521,7 @@ A MODIFIER
 /*
  * Image replacement
  */
+/* line 220, ../scss/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -443,6 +530,7 @@ A MODIFIER
   *text-indent: -9999px;
 }
 
+/* line 228, ../scss/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -453,6 +541,7 @@ A MODIFIER
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
+/* line 239, ../scss/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -461,6 +550,7 @@ A MODIFIER
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
+/* line 248, ../scss/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -476,6 +566,7 @@ A MODIFIER
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
+/* line 265, ../scss/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -489,6 +580,7 @@ A MODIFIER
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
+/* line 278, ../scss/main.scss */
 .invisible {
   visibility: hidden;
 }
@@ -504,6 +596,7 @@ A MODIFIER
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+/* line 295, ../scss/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -512,6 +605,7 @@ A MODIFIER
   /* 2 */
 }
 
+/* line 300, ../scss/main.scss */
 .clearfix:after {
   clear: both;
 }
@@ -520,6 +614,7 @@ A MODIFIER
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
+/* line 309, ../scss/main.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -540,6 +635,7 @@ A MODIFIER
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
+  /* line 336, ../scss/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -548,15 +644,18 @@ A MODIFIER
     text-shadow: none !important;
   }
 
+  /* line 344, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
+  /* line 348, ../scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
+  /* line 352, ../scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -564,28 +663,33 @@ A MODIFIER
   /*
    * Don't show links for images, or javascript/internal links
    */
+  /* line 362, ../scss/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
+  /* line 367, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
+  /* line 372, ../scss/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
+  /* line 377, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
+  /* line 381, ../scss/main.scss */
   img {
     max-width: 100% !important;
   }
@@ -594,6 +698,7 @@ A MODIFIER
     margin: 0.5cm;
 }
 
+  /* line 391, ../scss/main.scss */
   p,
   h2,
   h3 {
@@ -601,6 +706,7 @@ A MODIFIER
     widows: 3;
   }
 
+  /* line 397, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid;

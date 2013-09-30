@@ -1,0 +1,88 @@
+.theater{   
+    z-index:9999999; 
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: scroll;
+    a > .icon{
+        text-decoration: none;
+    }
+    .close{
+        position: fixed;
+        right: 0px;
+        color:white;
+        font-size: 50px;
+    }
+    .project-wrapper{
+        margin: 65px auto !important;
+        width: 470px;
+        >a{
+            >.icon{
+                margin: 0;
+                line-height: 401px;
+                color: white;
+                font-size: 50px;
+                &.previous{
+                   float: left;
+                   padding: 0px 5px 0px 0px;
+                }
+                &.next{
+                   float: right;
+                   padding: 0px 0px 0px 5px;
+                }
+            }
+        }
+    }
+    .project{
+        position: relative;
+        width: 360px;
+        float: left;
+        background-color: white;
+        .project-problem{
+            color: white;
+            background-color: #b20000;
+            padding: 15px
+        }
+        img{
+            width: 100%;
+        }
+        a{
+            text-decoration: none;
+            color: #4F4F4F;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        .title{
+            padding: 0px;
+            margin: 15px 15px 0px 15px;
+            max-width: 330px;
+            display: block;
+            float: left;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 20px;
+        }
+        p{
+            display: block;
+            float: left;
+            width: 330px;
+            &.author{
+                margin: 0px 15px 0px 15px;
+                font-size: 11px;
+                color: rgb(170, 170, 170);
+                a{
+                    color: rgb(170, 170, 170);
+                }
+            }
+            &.content{
+                margin: 5px 15px 40px 15px;
+                font-size: 15px;
+                text-align: justify;
+            }
+        }
+    }
+}
