@@ -1,0 +1,140 @@
+@import "icon";
+@import "side-nav";
+@import "theater";
+
+.main-align {
+	background-color: transparent;
+	&.left {
+		width: 188px;
+		height: 50px;
+	}
+	&.right {
+		width: 214px;
+		height: 50px;
+	}
+}
+
+.main{
+	&.wrapper {
+		text-align: center;
+		main {
+			text-align: left;
+			padding: 50px 0px 30px 0px;
+		 	width: 575px;
+			>.one.box{
+				margin: 15px 0px 0px 0px;
+				width: 560px;
+			}
+			>.two.box{
+				width: 272.5px;
+			}
+			>.three.box{
+				width:176.66667px;
+			}
+		}
+	}
+}
+.box{
+	position: relative;
+	padding-bottom: 15px;
+	margin: 15px 15px 0px 0px;
+	background-color: #FFF;
+	float: left;
+	-moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	h2{
+			padding: 0px;
+			margin: 15px;
+		}
+	&.transparent{
+		background-color: transparent;
+		-moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+		-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+		box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+	}
+	&.list-header{
+		h1{
+			padding: 0px;
+			margin: 15px;
+		}
+	}
+	&.list{
+		height: 100%;
+		a{
+			text-decoration: none;
+			color: #4F4F4F;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+		.title{
+			padding: 0px;
+			margin: 15px 15px 0px 0px;
+			max-width: 306px;
+			display: block;
+			float: left;
+			font-size: 20px;
+			font-weight: bold;
+			line-height: 20px;
+		}
+		p{
+			width: 306px;
+			display: block;
+			float: left;
+			&.author{
+				margin: 0px 15px 0px 0px;
+				font-size: 11px;
+				color: rgb(170, 170, 170);
+				a{
+					color: rgb(170, 170, 170);
+				}
+			}
+			&.content{
+				margin: 5px 15px 0px 0px;
+				font-size: 15px;
+				text-align: justify;
+			}
+		}
+		img{
+			float: left;
+			height: 70px;
+			width: 70px;
+			margin: 0 15px 0 0;
+			display: block;
+		}
+		ul{
+			line-height: 0.9;
+			display: block;
+			margin: 0px 0px 15px 0px;
+			padding: 0;
+			li{
+				height: 70px;
+				width: 100%;
+				//border-bottom: 1px solid black;
+				list-style-type: none;
+				color: black;
+				span{
+					display: inline-block;
+					margin-top: 15px;
+				}
+
+				.name{
+					width: 60%;
+				}
+				.departement{
+					font-size: 0.7em;
+				}
+			}
+			.gris{
+				background: #EBEBEB;
+			}
+		}
+		.add{
+			display: inline-block;
+			width: 79%;
+			font-size: 1.5em;
+			margin-left: 15px;
+		}
+	}
+}

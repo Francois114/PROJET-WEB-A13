@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'icon';
+    src:url('../fonts/icon/icon.eot');
+    src:url('../fonts/icon/icon.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/icon/icon.woff') format('woff'),
+        url('../fonts/icon/icon.ttf') format('truetype'),
+        url('../fonts/icon/icon.svg#icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.social-interaction{
+	font-size: 15px;
+	position:absolute;
+    bottom:10px;
+    right: 15px;
+	>*{
+		color:#AAA;
+        display: inline-block;
+		&:hover{
+			color: #4F4F4F;
+			cursor: pointer;
+            cursor: hand; 
+		}
+	}
+}
+
+.icon{
+    margin: 0px 10px 0px 0px;
+    &.like{
+    	&:before {
+        	content: '\e006';
+        	font-family: 'icon';
+        	speak: none;
+    	}
+    	&:hover{
+    		color: red;
+    	}
+    } 
+    &.comment{
+    	&:before {
+        	content: '\e007';
+        	font-family: 'icon';
+        	speak: none;
+    	}
+    } 
+    &.share{
+        &:before {
+            content: '\e005';
+            font-family: 'icon';
+            speak: none;
+        }
+    } 
+
+    &.modify{
+        &:before {
+            content: '\e001';
+            font-family: 'icon';
+            speak: none;
+        }
+    } 
+
+    &.add{
+        &:before {
+            content: '\e00d';
+            font-family: 'icon';
+            speak: none;
+        }
+    } 
+
+    &.delete{
+        &:before {
+            content: '\e00c';
+            font-family: 'icon';
+            speak: none;
+        }
+    } 
+    &.user{
+         &:before {
+            content: '\e002';
+            font-family: 'icon';
+            speak: none;
+        }
+    }
+    &.message{
+         &:before {
+            content: '\e000';
+            font-family: 'icon';
+            speak: none;
+        }
+    }
+    &.notification{
+         &:before {
+            content: '\e008';
+            font-family: 'icon';
+            speak: none;
+        }
+    }
+    &.profil{
+         &:before {
+            content: '\e004';
+            font-family: 'icon';
+            speak: none;
+        }
+    }
+    &.management{
+         &:before {
+            content: '\e009';
+            font-family: 'icon';
+            speak: none;
+        }
+    }
+    &.category{
+         &:before {
+            content: '\e00e';
+            font-family: 'icon';
+            speak: none;
+        }
+    }
+    &.moderator{
+         &:before {
+            content: '\e003';
+            font-family: 'icon';
+            speak: none;
+        }
+    }
+    &.contest{
+         &:before {
+            content: '\e00a';
+            font-family: 'icon';
+            speak: none;
+        }
+    }
+    &.project{
+         &:before {
+            content: '\e00b';
+            font-family: 'icon';
+            speak: none;
+        }
+    }
+    &.next{
+         &:before {
+            content: '\e010';
+            font-family: 'icon';
+            speak: none;
+        }
+    }
+    &.previous{
+         &:before {
+            content: '\e00f';
+            font-family: 'icon';
+            speak: none;
+        }
+    }
+}
+.icon-alone {
+  display: inline-block; /* Chrome 19 was weird with clickability without this */
+}
+.screen-reader-text { /* Reusable, toolbox kind of class */
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.icon-alone{
+	font-family: 'icon';
+}

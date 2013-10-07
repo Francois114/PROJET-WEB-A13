@@ -20,5 +20,4 @@ $(window).resize(function() {
 	}else{
 		$("main").width(nbrHorizontalArticle*283);
 	}
-
 });

@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'entypo';
+	src:url('fonts/entypo.eot');
+	src:url('fonts/entypo.eot?#iefix') format('embedded-opentype'),
+		url('fonts/entypo.woff') format('woff'),
+		url('fonts/entypo.ttf') format('truetype'),
+		url('fonts/entypo.svg#entypo') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'entypo';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-mail, .icon-pencil, .icon-user, .icon-users, .icon-vcard, .icon-export, .icon-heart, .icon-comment, .icon-bell, .icon-tools, .icon-trophy, .icon-newspaper, .icon-cross, .icon-plus, .icon-folder, .icon-arrow-left, .icon-arrow-right {
+	font-family: 'entypo';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-mail:before {
+	content: "\e000";
+}
+.icon-pencil:before {
+	content: "\e001";
+}
+.icon-user:before {
+	content: "\e002";
+}
+.icon-users:before {
+	content: "\e003";
+}
+.icon-vcard:before {
+	content: "\e004";
+}
+.icon-export:before {
+	content: "\e005";
+}
+.icon-heart:before {
+	content: "\e006";
+}
+.icon-comment:before {
+	content: "\e007";
+}
+.icon-bell:before {
+	content: "\e008";
+}
+.icon-tools:before {
+	content: "\e009";
+}
+.icon-trophy:before {
+	content: "\e00a";
+}
+.icon-newspaper:before {
+	content: "\e00b";
+}
+.icon-cross:before {
+	content: "\e00c";
+}
+.icon-plus:before {
+	content: "\e00d";
+}
+.icon-folder:before {
+	content: "\e00e";
+}
+.icon-arrow-left:before {
+	content: "\e00f";
+}
+.icon-arrow-right:before {
+	content: "\e010";
+}

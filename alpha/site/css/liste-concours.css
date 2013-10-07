@@ -1,0 +1,338 @@
+@font-face {
+  font-family: 'icon';
+  src: url("../fonts/icon/icon.eot");
+  src: url("../fonts/icon/icon.eot?#iefix") format("embedded-opentype"), url("../fonts/icon/icon.woff") format("woff"), url("../fonts/icon/icon.ttf") format("truetype"), url("../fonts/icon/icon.svg#icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, ../scss/icon.scss */
+.social-interaction {
+  font-size: 15px;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+/* line 17, ../scss/icon.scss */
+.social-interaction > * {
+  color: #AAA;
+  display: inline-block;
+}
+/* line 20, ../scss/icon.scss */
+.social-interaction > *:hover {
+  color: #4F4F4F;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 28, ../scss/icon.scss */
+.icon {
+  margin: 0px 10px 0px 0px;
+}
+/* line 31, ../scss/icon.scss */
+.icon.like:before {
+  content: '\e006';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 36, ../scss/icon.scss */
+.icon.like:hover {
+  color: red;
+}
+/* line 41, ../scss/icon.scss */
+.icon.comment:before {
+  content: '\e007';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 48, ../scss/icon.scss */
+.icon.share:before {
+  content: '\e005';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 56, ../scss/icon.scss */
+.icon.modify:before {
+  content: '\e001';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 64, ../scss/icon.scss */
+.icon.add:before {
+  content: '\e00d';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 72, ../scss/icon.scss */
+.icon.delete:before {
+  content: '\e00c';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 79, ../scss/icon.scss */
+.icon.user:before {
+  content: '\e002';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 86, ../scss/icon.scss */
+.icon.message:before {
+  content: '\e000';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 93, ../scss/icon.scss */
+.icon.notification:before {
+  content: '\e008';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 100, ../scss/icon.scss */
+.icon.profil:before {
+  content: '\e004';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 107, ../scss/icon.scss */
+.icon.management:before {
+  content: '\e009';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 114, ../scss/icon.scss */
+.icon.category:before {
+  content: '\e00e';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 121, ../scss/icon.scss */
+.icon.moderator:before {
+  content: '\e003';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 128, ../scss/icon.scss */
+.icon.contest:before {
+  content: '\e00a';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 135, ../scss/icon.scss */
+.icon.project:before {
+  content: '\e00b';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 142, ../scss/icon.scss */
+.icon.next:before {
+  content: '\e010';
+  font-family: 'icon';
+  speak: none;
+}
+/* line 149, ../scss/icon.scss */
+.icon.previous:before {
+  content: '\e00f';
+  font-family: 'icon';
+  speak: none;
+}
+
+/* line 156, ../scss/icon.scss */
+.icon-alone {
+  display: inline-block;
+  /* Chrome 19 was weird with clickability without this */
+}
+
+/* line 159, ../scss/icon.scss */
+.screen-reader-text {
+  /* Reusable, toolbox kind of class */
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+/* line 165, ../scss/icon.scss */
+.icon-alone {
+  font-family: 'icon';
+}
+
+/* line 2, ../scss/side-nav.scss */
+.side-nav-wrapper .title {
+  font-size: 20px;
+  color: white;
+  margin: 0px 15px;
+  font-weight: bold;
+}
+/* line 8, ../scss/side-nav.scss */
+.side-nav-wrapper hr {
+  padding: 0px;
+  margin: 0px 15px 5px 15px;
+}
+/* line 13, ../scss/side-nav.scss */
+.side-nav-wrapper > ul {
+  list-style: none outside none;
+  margin: 0px 0px 15px 0px;
+  padding: 0;
+  width: 100%;
+  float: left;
+}
+/* line 20, ../scss/side-nav.scss */
+.side-nav-wrapper > ul li a {
+  display: block;
+  text-decoration: none;
+  white-space: normal;
+}
+/* line 26, ../scss/side-nav.scss */
+.side-nav-wrapper > ul > li {
+  width: 100%;
+  float: left;
+  text-align: left;
+}
+/* line 30, ../scss/side-nav.scss */
+.side-nav-wrapper > ul > li span.icon {
+  padding-left: 10px;
+}
+/* line 33, ../scss/side-nav.scss */
+.side-nav-wrapper > ul > li > a {
+  width: 100%;
+  color: #F4F4F4;
+  display: block;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 0px 0px 0px 15px;
+  padding: 0;
+}
+/* line 42, ../scss/side-nav.scss */
+.side-nav-wrapper > ul > li:hover {
+  background-color: #4F4F4F;
+}
+/* line 45, ../scss/side-nav.scss */
+.side-nav-wrapper > ul > li.active > a {
+  background-color: #4F4F4F;
+  color: #069;
+}
+/* line 51, ../scss/side-nav.scss */
+.side-nav-wrapper > ul > a:hover {
+  background-color: #4F4F4F;
+}
+/* line 54, ../scss/side-nav.scss */
+.side-nav-wrapper > ul > a.active {
+  background-color: #4F4F4F;
+  color: #069;
+}
+
+/* line 4, ../scss/liste-concours.scss */
+.main-align {
+  background-color: transparent;
+}
+/* line 6, ../scss/liste-concours.scss */
+.main-align.left {
+  width: 188px;
+  height: 50px;
+}
+/* line 10, ../scss/liste-concours.scss */
+.main-align.right {
+  width: 214px;
+  height: 50px;
+}
+
+/* line 17, ../scss/liste-concours.scss */
+.main.wrapper {
+  text-align: center;
+}
+/* line 19, ../scss/liste-concours.scss */
+.main.wrapper main {
+  text-align: left;
+  padding: 50px 0px 0px 0px;
+  width: 575px;
+}
+/* line 23, ../scss/liste-concours.scss */
+.main.wrapper main > .one.box {
+  margin: 15px 0px 0px 0px;
+  width: 560px;
+}
+/* line 27, ../scss/liste-concours.scss */
+.main.wrapper main > .two.box {
+  width: 272.5px;
+}
+/* line 30, ../scss/liste-concours.scss */
+.main.wrapper main > .three.box {
+  width: 176.66667px;
+}
+
+/* line 36, ../scss/liste-concours.scss */
+.box {
+  position: relative;
+  padding: 0px;
+  margin: 15px 15px 0px 0px;
+  background-color: #FFF;
+  float: left;
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* line 45, ../scss/liste-concours.scss */
+.box.transparent {
+  background-color: transparent;
+  -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+/* line 52, ../scss/liste-concours.scss */
+.box.list-header h1 {
+  padding: 0px;
+  margin: 15px;
+}
+/* line 57, ../scss/liste-concours.scss */
+.box.list {
+  height: 185px;
+}
+/* line 59, ../scss/liste-concours.scss */
+.box.list a {
+  text-decoration: none;
+  color: #4F4F4F;
+}
+/* line 62, ../scss/liste-concours.scss */
+.box.list a:hover {
+  text-decoration: underline;
+}
+/* line 66, ../scss/liste-concours.scss */
+.box.list .title {
+  padding: 0px;
+  margin: 15px 15px 0px 0px;
+  max-width: 306px;
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+}
+/* line 76, ../scss/liste-concours.scss */
+.box.list p {
+  width: 306px;
+  display: block;
+  float: left;
+}
+/* line 80, ../scss/liste-concours.scss */
+.box.list p.author {
+  margin: 0px 15px 0px 0px;
+  font-size: 11px;
+  color: #aaaaaa;
+}
+/* line 84, ../scss/liste-concours.scss */
+.box.list p.author a {
+  color: #aaaaaa;
+}
+/* line 88, ../scss/liste-concours.scss */
+.box.list p.content {
+  margin: 5px 15px 0px 0px;
+  font-size: 15px;
+  text-align: justify;
+}
+/* line 94, ../scss/liste-concours.scss */
+.box.list img {
+  float: left;
+  height: 185px;
+  width: 224px;
+  margin-right: 15px;
+  display: block;
+}

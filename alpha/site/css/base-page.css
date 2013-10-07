@@ -1,28 +1,49 @@
+<<<<<<< HEAD
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/PROJET-WEB-A13\/alpha\/site\/scss\/base-page\.scss}line{font-family:\000031}}
 .main-align {
   background-color: transparent;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/PROJET-WEB-A13\/alpha\/site\/scss\/base-page\.scss}line{font-family:\000033}}
+=======
+/* line 1, ../scss/base-page.scss */
+.main-align {
+  background-color: transparent;
+}
+/* line 3, ../scss/base-page.scss */
+>>>>>>> upstream/master
 .main-align.left {
   width: 188px;
   height: 50px;
 }
+<<<<<<< HEAD
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/PROJET-WEB-A13\/alpha\/site\/scss\/base-page\.scss}line{font-family:\000037}}
+=======
+/* line 7, ../scss/base-page.scss */
+>>>>>>> upstream/master
 .main-align.right {
   width: 214px;
   height: 50px;
 }
 
+<<<<<<< HEAD
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/PROJET-WEB-A13\/alpha\/site\/scss\/base-page\.scss}line{font-family:\0000314}}
 .main.wrapper {
   text-align: center;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/PROJET-WEB-A13\/alpha\/site\/scss\/base-page\.scss}line{font-family:\0000316}}
+=======
+/* line 14, ../scss/base-page.scss */
+.main.wrapper {
+  text-align: center;
+}
+/* line 16, ../scss/base-page.scss */
+>>>>>>> upstream/master
 .main.wrapper main {
   text-align: left;
   padding: 50px 0px 0px 0px;
   width: 575px;
 }
+<<<<<<< HEAD
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/PROJET-WEB-A13\/alpha\/site\/scss\/base-page\.scss}line{font-family:\0000320}}
 .main.wrapper main > .one.box {
   width: 560px;
@@ -32,11 +53,26 @@
   width: 272.5px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/PROJET-WEB-A13\/alpha\/site\/scss\/base-page\.scss}line{font-family:\0000326}}
+=======
+/* line 20, ../scss/base-page.scss */
+.main.wrapper main > .one.box {
+  width: 560px;
+}
+/* line 23, ../scss/base-page.scss */
+.main.wrapper main > .two.box {
+  width: 272.5px;
+}
+/* line 26, ../scss/base-page.scss */
+>>>>>>> upstream/master
 .main.wrapper main > .three.box {
   width: 176.66667px;
 }
 
+<<<<<<< HEAD
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/PROJET-WEB-A13\/alpha\/site\/scss\/base-page\.scss}line{font-family:\0000332}}
+=======
+/* line 32, ../scss/base-page.scss */
+>>>>>>> upstream/master
 .box {
   padding: 0px;
   margin: 15px 15px 0px 0px;
@@ -46,7 +82,11 @@
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
+<<<<<<< HEAD
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GitHub\/PROJET-WEB-A13\/alpha\/site\/scss\/base-page\.scss}line{font-family:\0000340}}
+=======
+/* line 40, ../scss/base-page.scss */
+>>>>>>> upstream/master
 .box img {
   width: 100%;
   display: block;
